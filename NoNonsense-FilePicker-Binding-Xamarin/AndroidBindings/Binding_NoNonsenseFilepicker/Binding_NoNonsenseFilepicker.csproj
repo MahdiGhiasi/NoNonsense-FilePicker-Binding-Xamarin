@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\FilePickerActivity.cs" />
     <Compile Include="Additions\FilePickerFragment.Additions.cs" />
     <Compile Include="Additions\AbstractFilePickerFragment.Additions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,9 +96,7 @@
   <ItemGroup>
     <Content Include="GeneratedBindingInfo.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="..\..\..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
