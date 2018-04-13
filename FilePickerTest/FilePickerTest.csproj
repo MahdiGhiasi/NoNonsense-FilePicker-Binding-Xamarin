@@ -118,13 +118,13 @@
     <Folder Include="Resources\mipmap-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Binding_NoNonsenseFilepicker\Binding_NoNonsenseFilepicker.csproj">
-      <Project>{77CE19C8-D5C6-4B99-8A56-71265FE5B964}</Project>
-      <Name>Binding_NoNonsenseFilepicker</Name>
-    </ProjectReference>
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\styles.xml" />
+    <ProjectReference Include="..\Binding_NoNonsenseFilepicker\Binding_NoNonsenseFilepicker.csproj">
+      <Project>{77ce19c8-d5c6-4b99-8a56-71265fe5b964}</Project>
+      <Name>Binding_NoNonsenseFilepicker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

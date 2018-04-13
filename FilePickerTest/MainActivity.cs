@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace NoNonsense_FilePicker_Binding_Xamarin
 {
-    [Activity(Label = "Main Page", MainLauncher = true )]
+    [Activity(Label = "FilePickerTest", MainLauncher = true )]
     public class MainActivity : Activity
     {
         readonly int filePickerId = 1001;
@@ -38,8 +38,9 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             // Set these depending on your use case. These are the defaults.
             i.PutExtra(FilePickerActivity.ExtraAllowMultiple, false);
             i.PutExtra(FilePickerActivity.ExtraAllowCreateDir, true);
+            i.PutExtra(FilePickerActivity.ExtraAllowExistingFile, false);
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeNewFile);
-
+            
             // Configure initial directory by specifying a String.
             // You could specify a String like "/storage/emulated/0/", but that can
             // dangerous. Always use Android's API calls to get paths to the SD-card or
