@@ -1,0 +1,20 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--
+  <attr path="/api/package[@name='com.nononsenseapps.filepicker']/class[@name='AbstractFilePickerFragment']/method[@name='getRoot' and count(parameter)=0]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='com.nononsenseapps.filepicker']/class[@name='AbstractFilePickerFragment']/method[@name='getRoot' and count(parameter)=0]"
+        name="visibility">public</attr>
+        -->
+  <remove-node path="/api/package[@name='com.nononsenseapps.filepicker']/interface[@name='LogicHandler']/method[@name='getRoot' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.nononsenseapps.filepicker']/class[@name='AbstractFilePickerFragment']/method[@name='onLoadFinished' and count(parameter)=2 and parameter[1][@type='android.support.v4.content.Loader&lt;android.support.v7.util.SortedList&lt;T&gt;&gt;'] and parameter[2][@type='android.support.v7.util.SortedList&lt;T&gt;']]" />
+  <remove-node path="/api/package[@name='com.nononsenseapps.filepicker']/interface[@name='LogicHandler']/method[@name='getPath' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
+
+</metadata>
