@@ -118,7 +118,7 @@
     <Folder Include="Resources\mipmap-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AndroidBindings\Binding_NoNonsenseFilepicker\Binding_NoNonsenseFilepicker.csproj">
+    <ProjectReference Include="..\Binding_NoNonsenseFilepicker\Binding_NoNonsenseFilepicker.csproj">
       <Project>{77CE19C8-D5C6-4B99-8A56-71265FE5B964}</Project>
       <Name>Binding_NoNonsenseFilepicker</Name>
     </ProjectReference>
