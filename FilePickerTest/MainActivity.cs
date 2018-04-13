@@ -26,6 +26,28 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             FindViewById<Button>(Resource.Id.btnFolder).Click += SelectSingleFolder_Click;
             FindViewById<Button>(Resource.Id.btnCombined).Click += SelectCombined_Click;
             FindViewById<Button>(Resource.Id.btnNewFile).Click += SelectNewFile_Click;
+            FindViewById<Button>(Resource.Id.btnSingleCustomBack).Click += SelectSingleFileCustomBackBehavior_Click;
+        }
+
+        private void SelectSingleFileCustomBackBehavior_Click(object sender, EventArgs e)
+        {
+            // This always works
+            Intent i = new Intent(this, typeof(BackHandlingFilePickerActivity));
+            // This works if you defined the intent filter
+            // Intent i = new Intent(Intent.ACTION_GET_CONTENT);
+
+            // Set these depending on your use case. These are the defaults.
+            i.PutExtra(FilePickerActivity.ExtraAllowMultiple, false);
+            i.PutExtra(FilePickerActivity.ExtraAllowCreateDir, false);
+            i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeFile);
+
+            // Configure initial directory by specifying a String.
+            // You could specify a String like "/storage/emulated/0/", but that can be
+            // dangerous. Always use Android's API calls to get paths to the SD-card or
+            // internal memory.
+            i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
+
+            StartActivityForResult(i, filePickerId);
         }
 
         private void SelectNewFile_Click(object sender, EventArgs e)

@@ -28,4 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnNewFile" />
+    <Button
+        android:text="Pick a single file / custom back behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSingleCustomBack" />
 </LinearLayout>
