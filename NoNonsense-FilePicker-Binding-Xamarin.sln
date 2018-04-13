@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoNonsense-FilePicker-Binding-Xamarin", "NoNonsense-FilePicker-Binding-Xamarin\NoNonsense-FilePicker-Binding-Xamarin.csproj", "{D4E204FB-DB68-4117-83D4-360EE70A22F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePickerTest", "NoNonsense-FilePicker-Binding-Xamarin\FilePickerTest.csproj", "{D4E204FB-DB68-4117-83D4-360EE70A22F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_NoNonsenseFilepicker", "NoNonsense-FilePicker-Binding-Xamarin\AndroidBindings\Binding_NoNonsenseFilepicker\Binding_NoNonsenseFilepicker.csproj", "{77CE19C8-D5C6-4B99-8A56-71265FE5B964}"
 EndProject
