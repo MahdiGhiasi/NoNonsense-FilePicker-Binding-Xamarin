@@ -42,7 +42,7 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeNewFile);
             
             // Configure initial directory by specifying a String.
-            // You could specify a String like "/storage/emulated/0/", but that can
+            // You could specify a String like "/storage/emulated/0/", but that can be
             // dangerous. Always use Android's API calls to get paths to the SD-card or
             // internal memory.
             i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
@@ -63,7 +63,7 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeFileAndDir);
 
             // Configure initial directory by specifying a String.
-            // You could specify a String like "/storage/emulated/0/", but that can
+            // You could specify a String like "/storage/emulated/0/", but that can be
             // dangerous. Always use Android's API calls to get paths to the SD-card or
             // internal memory.
             i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
@@ -84,7 +84,7 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeDir);
             
             // Configure initial directory by specifying a String.
-            // You could specify a String like "/storage/emulated/0/", but that can
+            // You could specify a String like "/storage/emulated/0/", but that can be
             // dangerous. Always use Android's API calls to get paths to the SD-card or
             // internal memory.
             i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
@@ -105,7 +105,7 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeFile);
 
             // Configure initial directory by specifying a String.
-            // You could specify a String like "/storage/emulated/0/", but that can
+            // You could specify a String like "/storage/emulated/0/", but that can be
             // dangerous. Always use Android's API calls to get paths to the SD-card or
             // internal memory.
             i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
@@ -126,7 +126,7 @@ namespace NoNonsense_FilePicker_Binding_Xamarin
             i.PutExtra(FilePickerActivity.ExtraMode, FilePickerActivity.ModeFile);
 
             // Configure initial directory by specifying a String.
-            // You could specify a String like "/storage/emulated/0/", but that can
+            // You could specify a String like "/storage/emulated/0/", but that can be
             // dangerous. Always use Android's API calls to get paths to the SD-card or
             // internal memory.
             i.PutExtra(FilePickerActivity.ExtraStartPath, Android.OS.Environment.ExternalStorageDirectory.Path);
