@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Binding_NoNonsenseFilepicker.Additions
+namespace Com.Nononsenseapps.Filepicker
 {
     [Activity(Name = "com.nononsenseapps.filepicker.FilePickerActivity")]
     public partial class FilePickerActivity
